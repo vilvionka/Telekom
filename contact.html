@@ -1,0 +1,384 @@
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bx_slider/jquery.bxslider.css">
+    <link rel="stylesheet" href="swiper/swiper.css">
+    <link href="main.css" rel="stylesheet">
+
+    <Title>"UGMK-Telekom”</Title>
+</head>
+
+<body>
+    <!----pop up choose-------->
+    <div class="choose_city_pop_up">
+        <div class="flex_choose_pop_up_headling">
+            <div class="choose_headling_pop_up">Выберите свой город</div>
+            <div class="search_pop_up_choose">
+                <form action="">
+                    <div class="flex_form_choose">
+                        <input type="text" class="text_choose">
+                        <input type="submit" class="submit_choose" value="Найти">
+                        <div class="icon_search_choose"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="hidden_scrol_choose">
+            <div class="flex_content_choose_pop_up">
+                <div class="prem_city">Москва</div>
+                <div class="prem_city">Санкт-Петербург</div>
+            </div>
+            <ul class="accordion" data-accordion="open">
+                <li>
+                    <div class="accordion-header">1. Амурская область (Благовещенск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">2. Архангельская область (Архангельск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">3. Астраханская область (Астрахань)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">4. Белгородская область (Белгород)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">5. Брянская область (Брянск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">6. Челябинская область (Челябинск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">7. Иркутская область (Иркутск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">8. Брянская область (Брянск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">9. Челябинская область (Челябинск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-header">10. Иркутская область (Иркутск)</div>
+                    <div class="accordion-body">
+                        <span>Нижний Новгород</span>
+                        <span>Кстово</span>
+                        <span>Бор</span>
+                        <span>Лысково</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="close_choose">Отмена</div>
+    </div>
+
+    <!----pop up cookie-------->
+
+    <div class="cookie_box">
+        <div class="text_cookie">Этот сайт использует Cookie для хранения данных, продолжая использовать сайт Вы даете
+            согласие на работу с этими файлами.</div>
+        <div class="button_box_coolie">
+            <div class="button_yes button_cookie">Принять все и закрыть</div>
+            <div class="button_no button_cookie">Отклонить</div>
+        </div>
+    </div>
+
+    <!----start content-------->
+
+    <div class="header_block header_block_cinema">
+        <div class="pop_up_geolo">
+            <div class="you_city">Ваш город <span>Верхняя Пышма</span>?</div>
+            <div class="flex_pop_up_geolo">
+                <div class="button_geolo">ДА</div>
+                <div class="choose_city">Выбрать другой город</div>
+            </div>
+        </div>
+
+        <div class="nav_box">
+            <div class="nav">
+                <div class="left_nav_box">
+                    <div class="gamburg_menu">
+                        <span class="top_line"></span>
+                        <span class="middle_line"></span>
+                        <span class="bottom_line"></span>
+
+                        <div class="menu_gamburg">
+                            <div class="content_menu_gamburg">
+                                <div class="headling_menu">Меню</div>
+                                <div class="geolo_box_mob">
+                                    <div class="icon_geolo"></div>
+                                    <div class="text_geolo_mob">Верхняя Пышма</div>
+                                </div>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg1">Интернет</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg2">Телевидение</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg3">Пакеты</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg4">Телефония</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg5">Телевидение TwinPlay</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg6">Видеонаблюдение</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg7">Домофония</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg8">Безопасный интернет</a>
+                                <a href="#" class="item_menu_gamburg item_menu_gamburg9">Акции</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="logo_header"></a>
+                    <div class="search_box">
+                        <form action="">
+                            <div class="form_search">
+                                <input type="text" class="text">
+                                <input type="submit" class="submit" value="">
+                                <div class="search_icon"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <a href="#" class="logo_header_mobail"></a>
+                <div class="geolo_box">
+                    <div class="icon_geolo"></div>
+                    <div class="text_geolo">Верхняя Пышма</div>
+                </div>
+                <div class="item_nav_box">
+                    <a href="#" class="item_nav">Акции</a>
+                    <a href="#" class="item_nav">Контакты</a>
+                </div>
+                <div class="right_nav_box">
+                    <div class="user_box">
+                        <div class="icon_user"></div>
+                        <div class="name_user">Алексей</div>
+                    </div>
+                    <div class="button_nav">Оставить заявку</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_block_bread">
+        <div class="bread_crumbs_block">
+            <div class="back_block">
+                <div class="icon_back"></div>
+                <div class="text_back">Назад</div>
+            </div>
+            <div class="bread_crumbs">
+                <a href="" class="one_crumbs">Главная</a>
+                <span>/</span>
+                <a href="" class="last_crumbs">Офис обслуживания абонентов</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contayner">
+        <div class="headling_contact faq_headling">Офис обслуживания абонентов</div>
+        <div class="flex_contact">
+            <div class="text_contact">
+                <div class="address">
+                    <span>Адрес: </span>
+                    <p>624090 г. Верхняя Пышма, ул. Юбилейная, 8  </p>
+                </div>
+                <div class="address">
+                    <span>Единый телефон обслуживания:</span>
+                    <div>
+                        <a href="tel:+73436877777"> +7 (34368) 7-77-77</a>
+                        <a href="tel:+78007000400"> 8-800-7000-400 (круглосуточно)</a>
+                    </div>
+                </div>
+                <div class="address">
+                    <span>E-mail:</span>
+                    <a href="mailto:ugmk@ugmk-telecom.ru">ugmk@ugmk-telecom.ru</a>
+                </div>
+                <div class="address">
+                    <span>WhatsApp:</span>
+                    <a href="https://wa.me/+79827008400"> +7 982 700 84 00</a>
+                </div>
+            </div>
+            <div class="map_contact"></div>
+        </div>
+    </div>
+
+
+    <div class="footer_block">
+        <div class="contayner">
+            <a href="#" class="logo_footer"></a>
+            <div class="flex_contayner_footer">
+                <div class="flex_left_footer">
+                    <div class="item_footer_box">
+                        <div class="headling_item_flex_footer">Контакты</div>
+                        <a href="#">Карта сайта</a>
+                        <a href="#">Контакты</a>
+                        <a href="#">О Компании</a>
+                        <a href="#">Информация о Cookies</a>
+                        <a href="tel:+78007000400"> 8-800-7000-400</a>
+                    </div>
+                    <div class="item_footer_box">
+                        <div class="headling_item_flex_footer">О компании</div>
+                        <a href="#">Миссия</a>
+                        <a href="#">История</a>
+                        <a href="#">Лицензии</a>
+                        <a href="#">Вакансии</a>
+                        <a href="#">Новости</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                </div>
+                <div class="flex_right_footer">
+                    <div class="headling_item_flex_footer">Продукты</div>
+                    <a href="#">Интернет</a>
+                    <a href="#">Телевидение</a>
+                    <a href="#">Пакеты</a>
+                    <a href="#">Видеосервис TwinPlay</a>
+                    <a href="#">Видеонаблюдение</a>
+                    <a href="#">Домофония</a>
+                    <a href="#">Безопасный интернет</a>
+                    <a href="#">Оборудование</a>
+                    <a href="#">Способы оплаты</a>
+                    <a href="#">Дополнительные услуги</a>
+                    <a href="#">Архив тарифов</a>
+                </div>
+            </div>
+
+            <div class="network_footer_box">
+                <a href="#" class="item_footer_network">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="facebook_footer" fill-rule="evenodd" clip-rule="evenodd" d="M27.6452 22.352C27.8443 23.0307 27.5 23.375 26.8125 23.375H24.4057C23.7613 23.375 23.4372 23.0141 22.7361 22.2338C22.4389 21.903 22.0741 21.497 21.5886 21.0111C20.1597 19.635 19.5492 19.4568 19.1917 19.4568C18.7077 19.4568 18.5625 19.5943 18.5625 20.2818V22.44C18.5625 23.0307 18.3733 23.375 16.8432 23.375C14.2945 23.375 11.4928 21.8273 9.50509 18.9717C6.52189 14.7917 5.70679 11.6303 5.70679 10.9934C5.70679 10.6359 5.84429 10.3125 6.53179 10.3125H8.93749C9.55239 10.3125 9.78339 10.582 10.0144 11.2486C10.6825 13.1941 11.6106 15.0007 12.4375 16.1993C12.5002 16.2902 12.5624 16.3776 12.6238 16.4614C12.6995 16.5647 12.7742 16.6624 12.8475 16.7541C13.3107 17.3339 13.7169 17.6726 13.9909 17.6726C14.2978 17.6726 14.4375 17.5318 14.4375 16.7541V15.7357V15.5399V13.211C14.4174 12.8426 14.3576 12.5506 14.2771 12.3125C14.2756 12.3083 14.2742 12.304 14.2728 12.2998C14.2198 12.1459 14.1582 12.0148 14.0932 11.9002C13.9866 11.7124 13.8708 11.569 13.769 11.4429C13.6079 11.2434 13.4816 11.0871 13.4816 10.8658C13.4816 10.5963 13.7115 10.3125 14.0932 10.3125H15.3713H15.4257H17.875C18.3854 10.3125 18.5625 10.5853 18.5625 11.1969V14.5795V14.7083V15.9643C18.5625 16.4736 18.7836 16.6529 18.9365 16.6529C19.2327 16.6529 19.4814 16.4847 20.0066 15.9643C20.0236 15.9474 20.0409 15.9302 20.0585 15.9126C20.1804 15.7763 20.2999 15.6349 20.4165 15.4897C20.4657 15.4285 20.5143 15.3666 20.5625 15.3042C22.0245 13.409 23.0153 10.9934 23.0153 10.9934C23.1682 10.6359 23.4509 10.3125 24.0625 10.3125H26.4682C27.1964 10.3125 27.3504 10.6876 27.1964 11.1969C26.8906 12.5994 23.9591 16.7288 23.9591 16.7288C23.7039 17.1369 23.6016 17.3404 23.9591 17.7991C24.0852 17.9758 24.3544 18.2397 24.6621 18.5413C24.9769 18.8498 25.332 19.1979 25.6157 19.5327C26.6497 20.6954 27.4285 21.6766 27.6452 22.352ZM27.1252 18.2205C27.6496 18.8106 28.1443 19.3937 28.5454 19.9365C28.9237 20.4484 29.3371 21.0789 29.5496 21.741L29.5572 21.7649L29.5643 21.789C29.766 22.4765 29.839 23.5376 29.0771 24.4228C28.3774 25.2356 27.408 25.375 26.8125 25.375H24.4057C23.88 25.375 23.3689 25.2629 22.8801 25.007C22.4346 24.7737 22.0954 24.465 21.8484 24.2171C21.6517 24.0198 21.4359 23.7794 21.2325 23.5529C21.1886 23.504 21.1452 23.4557 21.1028 23.4086C20.9363 23.2241 20.7539 23.0242 20.5454 22.8055C20.4906 23.3623 20.2671 24.2025 19.3902 24.7903C18.6014 25.3191 17.6095 25.375 16.8432 25.375C13.5019 25.375 10.1432 23.3835 7.8705 20.1242C6.29483 17.9149 5.27339 15.9499 4.63943 14.4191C4.32247 13.6538 4.09877 12.9883 3.95119 12.447C3.81928 11.9631 3.70679 11.4323 3.70679 10.9934C3.70679 10.6103 3.77131 9.80933 4.41753 9.13504C5.07106 8.45313 5.91931 8.3125 6.53179 8.3125H8.93749C9.55159 8.3125 10.3203 8.45615 10.9754 9.06002C11.2837 9.34414 11.4963 9.67119 11.6468 9.97025C12.0129 9.01248 12.9509 8.3125 14.0932 8.3125H17.875C18.4821 8.3125 19.3862 8.49027 20.0123 9.32828C20.526 10.0157 20.5625 10.7971 20.5625 11.1969V11.5157C20.7357 11.177 20.8762 10.881 20.9784 10.6575C21.0428 10.5168 21.0915 10.406 21.1231 10.3327C21.1389 10.2961 21.1504 10.2689 21.1575 10.2522L21.1646 10.2351L21.1649 10.2344L21.1651 10.234L21.1652 10.2336L21.1655 10.233L21.1656 10.2326L21.1706 10.2206L21.1764 10.2069C21.3384 9.82815 21.6286 9.32533 22.1616 8.92286C22.7196 8.50145 23.3812 8.3125 24.0625 8.3125H26.4682C27.0851 8.3125 28.1347 8.46468 28.8012 9.4163C29.4085 10.2832 29.2678 11.2128 29.1328 11.6999C28.9776 12.3412 28.6205 13.0533 28.3185 13.6085C27.969 14.251 27.5462 14.9426 27.1487 15.5651C26.7611 16.1722 26.3846 16.7338 26.1003 17.1504C26.3916 17.4359 26.7882 17.8252 27.1252 18.2205ZM25.5336 16.5659C25.5297 16.5607 25.528 16.5582 25.5281 16.5583C25.5283 16.5583 25.5302 16.5609 25.5336 16.5659Z" fill="url(#paint0_linear_537_2062)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_537_2062" x1="6.72532" y1="9.37892" x2="28.0515" y2="12.2338" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#DD4C05" />
+                                <stop offset="1" stop-color="#D13730" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                </a>
+                <a href="#" class="item_footer_network">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="facebook_footer" d="M20 16.37L19.0108 16.5167L20 16.37ZM16.63 13L16.4833 13.9892L16.63 13ZM11 8H21V6H11V8ZM21 8C23.2091 8 25 9.79086 25 12H27C27 8.68629 24.3137 6 21 6V8ZM25 12V22H27V12H25ZM25 22C25 24.2091 23.2091 26 21 26V28C24.3137 28 27 25.3137 27 22H25ZM21 26H11V28H21V26ZM11 26C8.79086 26 7 24.2091 7 22H5C5 25.3137 7.68629 28 11 28V26ZM7 22V12H5V22H7ZM7 12C7 9.79086 8.79086 8 11 8V6C7.68629 6 5 8.68629 5 12H7ZM19.0108 16.5167C19.1034 17.1409 18.9968 17.7783 18.7061 18.3384L20.4814 19.2596C20.9658 18.3261 21.1434 17.2636 20.9892 16.2233L19.0108 16.5167ZM18.7061 18.3384C18.4155 18.8985 17.9557 19.3527 17.392 19.6364L18.2912 21.4229C19.2306 20.9501 19.997 20.1931 20.4814 19.2596L18.7061 18.3384ZM17.392 19.6364C16.8284 19.9201 16.1897 20.0189 15.5667 19.9186L15.2489 21.8932C16.2872 22.0603 17.3518 21.8957 18.2912 21.4229L17.392 19.6364ZM15.5667 19.9186C14.9437 19.8184 14.3681 19.5242 13.9219 19.0781L12.5077 20.4923C13.2514 21.2359 14.2106 21.7262 15.2489 21.8932L15.5667 19.9186ZM13.9219 19.0781C13.4758 18.6319 13.1816 18.0563 13.0814 17.4333L11.1068 17.7511C11.2738 18.7894 11.7641 19.7486 12.5077 20.4923L13.9219 19.0781ZM13.0814 17.4333C12.9811 16.8103 13.0799 16.1716 13.3636 15.608L11.5771 14.7088C11.1043 15.6482 10.9397 16.7128 11.1068 17.7511L13.0814 17.4333ZM13.3636 15.608C13.6473 15.0443 14.1015 14.5845 14.6616 14.2939L13.7404 12.5186C12.8069 13.003 12.0499 13.7694 11.5771 14.7088L13.3636 15.608ZM14.6616 14.2939C15.2217 14.0032 15.8591 13.8966 16.4833 13.9892L16.7767 12.0108C15.7364 11.8566 14.6739 12.0342 13.7404 12.5186L14.6616 14.2939ZM16.4833 13.9892C17.12 14.0836 17.7095 14.3803 18.1646 14.8354L19.5788 13.4212C18.8202 12.6626 17.8378 12.1682 16.7767 12.0108L16.4833 13.9892ZM18.1646 14.8354C18.6197 15.2905 18.9164 15.88 19.0108 16.5167L20.9892 16.2233C20.8318 15.1622 20.3374 14.1798 19.5788 13.4212L18.1646 14.8354ZM22 11V13C23.1046 13 24 12.1046 24 11H22ZM22 11H20C20 12.1046 20.8954 13 22 13V11ZM22 11V9C20.8954 9 20 9.89543 20 11H22ZM22 11H24C24 9.89543 23.1046 9 22 9V11Z" fill="url(#paint0_linear_537_2063)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_537_2063" x1="8.32258" y1="8.25001" x2="24.8979" y2="9.70657" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#DD4C05" />
+                                <stop offset="1" stop-color="#D13730" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+
+                <a href="#" class="item_footer_network">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_537_2061)">
+                            <path class="facebook_footer" d="M13.9219 21.2695V32.7996H19.0781V21.2695H22.9228L23.6543 16.5H19.0781V13.4063C19.0781 12.1001 19.7175 10.8281 21.7671 10.8281H23.8477V6.76758C23.8477 6.76758 21.9589 6.44531 20.1542 6.44531C16.3853 6.44531 13.9219 8.72953 13.9219 12.8648V16.5H9.73242V21.2695H13.9219Z" stroke="url(#paint0_linear_537_2061)" stroke-width="2" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_537_2061" x1="11.3716" y1="8.09247" x2="23.1341" y2="8.64608" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#DD4C05" />
+                                <stop offset="1" stop-color="#D13730" />
+                            </linearGradient>
+                            <clipPath id="clip0_537_2061">
+                                <rect width="33" height="33" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </a>
+            </div>
+            <div class="icon_footer_box">
+                <div class="item_footer_icon item_footer_icon1"></div>
+                <div class="item_footer_icon item_footer_icon2"></div>
+            </div>
+            <div class="last_text_footer">© УГМК-Телеком 2021</div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="swiper/swiper.js"></script>
+    <script src="bx_slider/jquery.bxslider.js"></script>
+    <script src="main_js.js"></script>
+    <script>
+        $(function() {
+            var Accordion = function(el, multiple) {
+                this.el = el || {};
+                // more then one submenu open?
+                this.multiple = multiple || false;
+
+                var accordionHeader = this.el.find('.accordion-header');
+                accordionHeader.on('click', {
+                        el: this.el,
+                        multiple: this.multiple
+                    },
+                    this.dropdown);
+            };
+
+            Accordion.prototype.dropdown = function(e) {
+                var $el = e.data.el,
+                    $this = $(this),
+                    //this is the ul.submenuItems
+                    $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    //show only one menu at the same time
+                    $el.find('.accordion-body').not($next).slideUp().parent().removeClass('open');
+                }
+            }
+
+            var accordion = new Accordion($('.accordion'), false);
+        });
+    </script>
+
+
+</body>
+
+</html>
